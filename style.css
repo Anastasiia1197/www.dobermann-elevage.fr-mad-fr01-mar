@@ -39,23 +39,23 @@
 :root {
 	interpolate-size: allow-keywords;
 
-	--background: linear-gradient(45deg, #0c0a09 0%, #1c1917 45%, #0c0a09 100%);
-	--header: linear-gradient(90deg, #1c1917e0, #2dd4bf, #0c0a09);
-	--btn-accent: linear-gradient(135deg, #fb923c, #ea580c);
-	--btn-inherit: #fff7ed;
-	--accent: linear-gradient(135deg, #f97316, #c2410c);
-	--sub-title: linear-gradient(-135deg, #2dd4bf30, #042f2e);
-	--gift: #f0fdfae1;
-	--gift-bg: rgba(251, 146, 60, 0.1);
-	--gift-btn: linear-gradient(135deg, #9a3412, #431407);
+	--background: linear-gradient(45deg, #022c22 0%, #064e3b 45%, #022c22 100%);
+	--header: linear-gradient(-45deg, #064e3be0, #fbbf24, #022c22);
+	--btn-accent: linear-gradient(135deg, #facc15, #a16207);
+	--btn-inherit: #fefce8;
+	--accent: linear-gradient(135deg, #fde047, #ca8a04);
+	--sub-title: linear-gradient(-135deg, #fbbf2420, #14532d);
+	--gift: #ecfdf5;
+	--gift-bg: rgba(251, 191, 36, 0.1);
+	--gift-btn: linear-gradient(135deg, #713f12, #422006);
 	--border-radius: 10px;
-	--container: #0c0a09;
-	--table: linear-gradient(180deg, #1c1917, #0c0a09);
-	--minus: #38bdf8;
-	--shadow: #fb923c50;
-	--second-shadow: #ea580c;
-	--text-shadow: #2dd4bf;
-	--list-bg: linear-gradient(90deg, rgba(45, 212, 191, 0.1), rgba(251, 146, 60, 0.1));
+	--container: #022c22;
+	--table: linear-gradient(180deg, #064e3b, #022c22);
+	--minus: #fb7185;
+	--shadow: rgba(251, 191, 36, 0.3);
+	--second-shadow: #b45309;
+	--text-shadow: #fbbf24;
+	--list-bg: linear-gradient(90deg, rgba(251, 191, 36, 0.1), rgba(16, 185, 129, 0.1));
 }
 
 * {
@@ -216,7 +216,12 @@ header img {
 .h-violet-btn {
 	padding: 10px 20px;
 	font-size: 1rem;
-	border: 1px solid var(--btn-inherit);
+	background: var(--gift);
+	color: var(--text-shadow);
+	border: 2px solid var(--text-shadow);
+	border-radius: 8px;
+	corner-shape: scoop;
+	box-shadow: 2px 2px 4px var(--container);
 	margin-right: 5px;
 	font-weight: 700;
 	transition: all 0.3s ease-in-out;
@@ -227,6 +232,8 @@ header img {
 	font-size: 1rem;
 	background: var(--btn-accent);
 	box-shadow: 3px 3px 3px var(--gift);
+	border-radius: 8px;
+	corner-shape: scoop;
 	text-align: center;
 	font-weight: 700;
 	transition: all 0.3s ease;
@@ -338,11 +345,13 @@ header img {
 
 .btn-accent {
 	display: inline-block;
-	padding: 10px 12px;
+	padding: 6px 8px;
 	font-size: 1rem;
 	background: var(--gift-btn);
 	color: var(--btn-inherit) fff;
+	border: 2px solid var(--gift);
 	border-radius: 10px;
+	corner-shape: scoop;
 	text-align: center;
 	font-weight: 700;
 	margin: 10px auto;
