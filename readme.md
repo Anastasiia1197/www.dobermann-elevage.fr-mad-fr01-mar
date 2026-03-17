@@ -1,8 +1,8 @@
-# casablancakoszalin.pl
-ТЗ casablancakoszalin.pl mad casino
+# www.dobermann-elevage.fr
+ТЗ www.dobermann-elevage.fr mad casino
 
 !!! 
-1) всі посилання в head у файлы index.html мають бути https://casablancakoszalin.pl/ (сайт на якому буде контент). також змінити у sitemap та robots.txt на правильне посилання + дати сьогоднішні 
+1) всі посилання в head у файлы index.html мають бути https://www.dobermann-elevage.fr/ (сайт на якому буде контент). також змінити у sitemap та robots.txt на правильне посилання + дати сьогоднішні 
 2) на сторінці /fr-fr/ контент такий самий, як в index.html АЛЕ: 
 (можете створити нову папку /fr-fr/ або перейменувати)
 
@@ -26,9 +26,9 @@
 
 
 ставимо хрефланги та канонікл у head 
-<link rel="alternate" hreflang="fr-FR" href="https://casablancakoszalin.pl/fr-fr/">
-<link rel="alternate" hreflang="x-default" href="https://casablancakoszalin.pl/">
-<link rel="canonical" href="https://casablancakoszalin.pl/fr-fr/">
+<link rel="alternate" hreflang="fr-FR" href="https://www.dobermann-elevage.fr/fr-fr/">
+<link rel="alternate" hreflang="x-default" href="https://www.dobermann-elevage.fr/">
+<link rel="canonical" href="https://www.dobermann-elevage.fr/fr-fr/">
 
 
 !!! **КЛЮЧІ такод потрібно додавати у промт, та вказувати: щоб їх використовувал ШІ у написанні контенту**
